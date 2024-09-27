@@ -1,0 +1,9 @@
+.div {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 10px;
+}
+.titulos {
+    color: blue;
+}
