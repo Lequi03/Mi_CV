@@ -1,9 +1,57 @@
-.div {
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   display: block;
-  justify-content: space-around;
-  align-items: center;
-  margin: 10px 10px;
+  background-color:aliceblue;
+  text-align: center;
+  margin: 0px;
+}
+.cabecera {
+  background-color: cornflowerblue;
+  display: block;
+  text-align: center;
+  line-height: 1;
+}
+.contenido {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: black;
+}
+.fotoperfil {
+  border-radius: 30%;
+}
+.descripcion {
+  margin: 5px 0px;
 }
 .titulos {
-    color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  color: cornflowerblue;
+}
+.titulos2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+}
+.titulos3 {
+  font-style: italic;
+}
+ul {
+  list-style-type: "☞";
+  padding-left: 0;
+}
+li {
+  padding-left: 1em;
+}
+a:link {
+  color: aquamarine;
+}
+a:visited {
+  color: brown;
+}
+a:hover {
+  background-color: darkgoldenrod;
+}
+footer {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px;
 }
